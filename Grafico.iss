@@ -20,7 +20,7 @@ Function ChartData
 	task.NumOfRecords = 419
 	task.XFieldName = "NUM_VENDEDOR"
 	task.AddYFieldName "TOTAL_SUMA"
-	task.ResultName = db.UniqueResultName("Gráfico_01")
+	task.ResultName = db.UniqueResultName("Grafico_01")
 	task.PerformTask
 	Set task = Nothing
 	Set db = Nothing
